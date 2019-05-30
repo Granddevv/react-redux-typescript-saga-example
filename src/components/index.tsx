@@ -35,10 +35,6 @@ class ItemListComponent extends Component<ItemListProps, ItemListState> {
     fetchItems();
   }
 
-  handleChange(value: string) {
-    console.log("select change", value);
-  }
-
   render() {
     const { updateItem, removeItem } = this.props;
     const { Header, Content, Footer } = Layout;
