@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "display": "John",
+      "role": "read-only",
+      "id": "4"
+    },
+    {
+      "display": "Jane",
+      "role": "read-write",
+      "id": "8"
+    }
+  ]
+}
